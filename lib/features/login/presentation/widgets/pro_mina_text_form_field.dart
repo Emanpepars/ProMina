@@ -8,6 +8,8 @@ class ProMinaTextFormField extends StatelessWidget {
   final TextEditingController? controller;
   final bool obscureText;
   final String? Function(String?)? validator;
+  final TextInputAction? textInputAction;
+  final TextInputType? keyboardType;
 
   const ProMinaTextFormField({
     super.key,
@@ -15,14 +17,20 @@ class ProMinaTextFormField extends StatelessWidget {
     this.controller,
     this.obscureText = false,
     this.validator,
+    this.textInputAction,
+    this.keyboardType,
   });
 
   @override
   Widget build(BuildContext context) {
     return TextFormField(
+      textInputAction: textInputAction,
+      keyboardType: keyboardType,
       validator: validator,
       obscureText: obscureText,
+      cursorHeight: 20.h,
       controller: controller,
+      style: Theme.of(context).textTheme.bodySmall,
       decoration: InputDecoration(
         errorStyle: Theme.of(context).textTheme.labelSmall,
         contentPadding: EdgeInsets.only(

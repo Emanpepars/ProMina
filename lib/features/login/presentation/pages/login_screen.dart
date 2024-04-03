@@ -41,7 +41,7 @@ class LoginScreen extends StatelessWidget {
                 ),
               ),
             );
-            Navigator.pushNamed(context, Routes.home);
+            Navigator.pushReplacementNamed(context, Routes.home);
           } else if (state is LoginErrorState) {
             ScaffoldMessenger.of(context).showSnackBar(
               SnackBar(
@@ -119,6 +119,8 @@ class LoginScreen extends StatelessWidget {
                             height: 44.h,
                           ),
                           ProMinaTextFormField(
+                            textInputAction: TextInputAction.next,
+                            keyboardType: TextInputType.emailAddress,
                             validator: (value) =>
                                 LoginCubit.get(context).validateEmail(value),
                             hintText: 'Email',
@@ -129,6 +131,7 @@ class LoginScreen extends StatelessWidget {
                             height: 38.h,
                           ),
                           ProMinaTextFormField(
+                            textInputAction: TextInputAction.done,
                             validator: (value) =>
                                 LoginCubit.get(context).validatePassword(value),
                             hintText: 'Password',
