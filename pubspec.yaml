@@ -1,0 +1,49 @@
+name: pro_mina
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  shared_preferences: ^2.2.2
+  flutter_screenutil: ^5.9.0
+  google_fonts: ^6.2.1
+  flutter_bloc: ^8.1.5
+  dartz: ^0.10.1
+  bloc: ^8.1.4
+  dio: ^5.4.2+1
+  flutter_svg: ^2.0.10+1
+  image_picker: ^1.0.7
+  cached_network_image: ^3.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.2
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+
+  fonts:
+    - family: Segoe Ui
+      fonts:
+        - asset: assets/fonts/segoe_ui/segoe _ui.ttf
+        - asset: assets/fonts/segoe_ui/segoe _ui_bold.ttf
+        - asset: assets/fonts/segoe_ui/segoe _ui_bold_italic.ttf
+        - asset: assets/fonts/segoe_ui/segoe _ui_italic.ttf
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
