@@ -1,16 +1,9 @@
-# promina
+<h1 align="start" id="title">ProMina Agency Flutter Assessment Task</h1>
+</br>
 
-A new Flutter project.
+<p id="description">I am pleased to submit my assessment task for the Flutter vacancy at ProMina Agency. I have completed the task according to the provided requirements and am excited to share my work with you.</p>
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<p id="description">For this assessment, I was tasked with designing and developing a Flutter application that demonstrates clean code, design matching, responsiveness, attention to details, and project size management. I have used various packages to enhance the functionality and user experience of the application.</p>
+ 
