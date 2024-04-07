@@ -12,7 +12,9 @@
 [https://drive.google.com/file/d/19-l\_HV1lY7Br5nWnBsLPeLw3LnFAMhOs/view?usp=share\_link](https://drive.google.com/file/d/19-l_HV1lY7Br5nWnBsLPeLw3LnFAMhOs/view?usp=share_link)
 
 <h2>Project Screenshots:</h2>
+<img src="https://i.pinimg.com/736x/fc/e5/d8/fce5d8cc77aa725ece1289bcd4e690ca.jpg" alt="project-screenshot" width="300" height="200/">
 
-<img src="https://drive.google.com/file/d/1fGmD4RH__vDr9hqeTmBhd6I5oOtjUna9/view?usp=sharing" alt="project-screenshot" width="200" height="200/">
+.</br>
 
-<img src="https://drive.google.com/file/d/16YcTubq4r0Xwr2g7izDCTj1-GbYlvslj/view?usp=sharing" alt="project-screenshot" width="100" height="100/">
+<img src="https://i.pinimg.com/736x/16/fe/cc/16fecc94812f58e42e15cae85e788aa6.jpg" alt="project-screenshot" width="300" height="200/">
+
